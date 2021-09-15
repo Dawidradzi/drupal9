@@ -1,0 +1,19 @@
+name: Farma
+description: 'Drupal 9 Starter Theme'
+type: theme
+core_version_requirement: ^8 || ^9
+base theme: false
+stylesheets-remove:
+  - core/modules/views/css/views.module.css
+  - core/modules/system/css/components/align.module.css
+libraries:
+  - farm/global-css
+  - farm/global-js
+regions:
+  content: 'Main Content'
+  header: 'Header'
+  footer: 'Footer'
+  sidebar: 'Sidebar'
+  main_navigation: 'Main Navigation'
+  content_image: 'Content Image'
+  main_article: 'Main Article'
